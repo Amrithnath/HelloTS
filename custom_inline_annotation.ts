@@ -1,6 +1,11 @@
 class Point{//.class
     x:number;
     y:number;
+    constructor(x:number,y:number){
+        this.x=x;
+        this.y=y;
+
+    }
     draw(){
         console.log("X: "+this.x+",Y :" +this.y);
     }
@@ -9,7 +14,5 @@ class Point{//.class
     }
 }
 
-let point = new Point();//object (instance of class)
-point.x=1;
-point.x=2;
+let point = new Point(1,2);//object (instance of class)
 point.draw();
