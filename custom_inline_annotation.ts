@@ -4,7 +4,7 @@ interface Point{
 }
 
 
-let drawPoint = (point:{x:number, y:number})=>{
+let drawPoint = (point:Point)=>{
 
 }
 
